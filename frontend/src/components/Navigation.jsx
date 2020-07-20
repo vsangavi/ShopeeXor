@@ -1,42 +1,45 @@
-import React, { useState } from "react";
+import React from "react";
+import { ReactComponent as Logo } from "../styles/ecommerce.svg";
 import "../styles/nav.css";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  
-  NavbarText,
-} from "reactstrap";
-
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
     <div>
-      <Navbar style={{ backgroundColor: "#eca0b6" }} light expand="sm">
-        <NavbarBrand href="/">ShopeeXor</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/">Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/">Cart</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/">Wishlist</NavLink>
-            </NavItem>
-          </Nav>
-          <NavbarText>Profile</NavbarText>
-        </Collapse>
-      </Navbar>
+      <nav className="navbar navbar-expand-sm navbar-light ">
+        <a className="navbar-brand" href="/">
+          <Logo /> ShopeeXor
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">
+                Home <span className="sr-only">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                Cart
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                Wishlist
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   );
 };
