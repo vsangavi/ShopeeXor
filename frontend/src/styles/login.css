@@ -1,0 +1,6 @@
+.divclass {
+  box-sizing: border-box;
+  border: 2px solid lightpink;
+  height: 40vh;
+  width: 40vw;
+}

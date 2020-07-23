@@ -1,13 +1,14 @@
 body {
-  background-image: url(man.jpg);
+  background-image: url(bgimg.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
 }
+
 .navbar {
-  background-color: #e29190;
+  background-color: #fcb8b7;
   font-family: cursive;
 }
 .nav-item {
