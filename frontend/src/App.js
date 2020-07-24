@@ -1,23 +1,19 @@
 import React from "react";
 import "./App.css";
-/*import Home from "./components/Home";
-
-import Register from "./components/Register";
-
-import { Route, Switch } from "react-router-dom";*/
-//import Initial from "./components/Initial";
+import Home from "./components/Home";
+import { Route, Switch } from "react-router-dom";
+import Initial from "./components/Initial";
 import Navigation from "./components/Navigation";
 import Login from "./components/Login";
+import Register from "./components/Register";
 function App() {
   return (
     <div>
       <Navigation />
-
-      <Login />
-      {/* <Switch>
+       <Switch>
       <Route exact path="/">
-      <Initial/>
-      </Route<
+       <Initial/>
+      </Route>
         <Route path="/login">
           <Login />
         </Route>
@@ -27,7 +23,7 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-     </Switch>*/}
+      </Switch>
     </div>
   );
 }

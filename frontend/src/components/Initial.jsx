@@ -3,7 +3,7 @@ import "../styles/initial.css";
 //import { ReactComponent as Logo } from "../styles/ecommerce.svg";
 const Initial = () => {
   return (
-    <div className="divclass">
+    <div className="divclass1">
       <h1>Wear what you Love!!</h1>
       <h4>Let's get Started</h4>
 

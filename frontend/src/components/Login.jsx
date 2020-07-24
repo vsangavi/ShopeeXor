@@ -3,21 +3,28 @@ import "../styles/login.css";
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
-    <div className="divclass">
-      <p className="sign">
-        <i className="fas fa-sign-in-alt" style={{ color: "lightpink" }}></i>
-        <span> </span>SIGN IN
-      </p>
-      <form className="form1">
-        <input className="un" type="text" placeholder="Username" />
-
-        <input className="pass" type="password" placeholder="Password" />
-        <Link to="/login">
-          <button className="submit">Login</button>
-        </Link>
-        <p className="reg">
-          <Link to="/register">New user?Create an account!</Link>
-        </p>
+    <div className="box">
+      <br/>
+      <h1>LOGIN</h1>
+      <form>
+        <div>
+          <label className="space">Email:</label>
+          <input type="text" placeholder="Enter valid mail id" />
+          <div>
+            <label>Password:</label>
+            <input type="Password" placeholder="Enter your password" />
+          </div>
+          <center>
+            <div className="butt"> 
+              <button type="submit">Submit</button>
+            </div>
+            <div className="link1">
+              <Link style= {{color:'black'}} to="/register">
+                <h5>New user?Sign Up</h5>
+              </Link>
+            </div>
+          </center>
+        </div>
       </form>
     </div>
   );
