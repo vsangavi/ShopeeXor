@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <div className="box">
       <br/>
-      <h1>LOGIN</h1>
+      <h1>Login</h1>
       <form>
         <div>
           <label className="space">Email:</label>
@@ -15,12 +15,14 @@ const Login = () => {
             <input type="Password" placeholder="Enter your password" />
           </div>
           <center>
-            <div className="butt"> 
-              <button type="submit">Submit</button>
-            </div>
+           <div className="text-center">
+        <button type="submit" className="btn1">
+          Login
+        </button>
+        </div>
             <div className="link1">
               <Link style= {{color:'black'}} to="/register">
-                <h5>New user?Sign Up</h5>
+                <h5>New user?SignUp</h5>
               </Link>
             </div>
           </center>

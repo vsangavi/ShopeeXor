@@ -2,8 +2,10 @@ import React from "react";
 import "../styles/register.css";
 const Register = () => {
   return (
-    <div className="box">
+    <div>
+      <br />
       <h1>SignUp</h1>
+
       <form>
         <div>
           <label>Name:</label>
@@ -14,10 +16,12 @@ const Register = () => {
           <input type="number" placeholder="Enter valid mobile " />
           <label>Password:</label>
           <input type="Password" placeholder="Enter your password" />
-          <div className="butt">
-            <center>
-              <button type="submit">Register</button>
-            </center>
+
+          <div className="text-center">
+            
+            <button type="submit" className="btn1">
+              Register
+            </button>
           </div>
         </div>
       </form>

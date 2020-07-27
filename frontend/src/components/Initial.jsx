@@ -6,10 +6,11 @@ const Initial = () => {
     <div className="divclass1">
       <h1>Wear what you Love!!</h1>
       <h4>Let's get Started</h4>
-
-      <button type="button" className="btn btn-info btn-lg ">
-        Login
-      </button>
+      <div className="text-center">
+        <button type="button" className="btn1">
+          Login
+        </button>
+      </div>
     </div>
   );
 };

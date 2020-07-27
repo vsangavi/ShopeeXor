@@ -1,5 +1,7 @@
-h1 {
+h1,
+h5 {
   text-align: center;
+  font-family: cursive;
 }
 
 form {
@@ -11,7 +13,7 @@ form {
 label,
 input {
   display: block;
-  width: 100%;
+  width: 98%;
 }
 
 label {
@@ -25,8 +27,8 @@ input {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 15px;
-  border: 1px solid coral;
-  background-color: #f7c8c7;
+  border: 1px solid #dcb8b8;
+  background-color: #dcb8b8;
 }
 
 input.error {
@@ -40,36 +42,33 @@ input.error {
   margin-bottom: 20px;
 }
 
-button {
-  padding: 10px 15px;
-  background-color: rgb(70, 153, 179);
+.btn1 {
+  background-color: darkcyan;
+  border: none;
   color: white;
-  border: 1px solid rgb(70, 153, 179);
-  background-color: 250ms;
-}
-
-button:hover {
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 3px 2px;
   cursor: pointer;
-  background-color: white;
-  color: rgb(70, 153, 179);
 }
-.box{
-  border: 2px solid #f7c8c7;
+.box {
+  border: 2px solid #dcb8b8;
   box-sizing: border-box;
   height: 75vh;
   width: 40vw;
   margin: 2rem auto;
-  box-shadow: inset 2px 2px 30px 2px rgb(165, 94, 94), 1px 1px 1px 1px #f7c8c7;
+  box-shadow: inset 2px 2px 30px 2px rgb(165, 94, 94), 1px 1px 1px 1px #dcb8b8;
   border-radius: 15px;
 }
 .link1 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-.butt {
-  margin-top: 40px;
-  align-items: center;
-}
 .space {
   margin-top: 40px;
 }
+
