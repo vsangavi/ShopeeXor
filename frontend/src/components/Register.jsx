@@ -3,7 +3,7 @@ import "../styles/register.css";
 import { Link } from "react-router-dom";
 const Register = () => {
   return (
-    <div>
+    <div className="box">
       <br />
       <h1>SignUp</h1>
 

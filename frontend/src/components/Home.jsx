@@ -7,7 +7,9 @@ const Home = () => {
       <div className="column">
         <div className="card">
           <img></img>
-          <h1>Heading</h1>
+          <h1>
+            Heading <i className="far fa-heart"></i>
+          </h1>
           <h3>Price</h3>
           <button className="butt">Add to cart</button>
         </div>
@@ -15,7 +17,20 @@ const Home = () => {
       <div className="column">
         <div className="card">
           <img></img>
-          <h1>Heading</h1>
+          <h1>
+            Heading <i className="far fa-heart"></i>
+          </h1>
+          <h3>Price </h3>
+
+          <button className="butt">Add to cart</button>
+        </div>
+      </div>
+      <div className="column">
+        <div className="card">
+          <img></img>
+          <h1>
+            Heading <i className="far fa-heart"></i>
+          </h1>
           <h3>Price</h3>
           <button className="butt">Add to cart</button>
         </div>
@@ -23,7 +38,9 @@ const Home = () => {
       <div className="column">
         <div className="card">
           <img></img>
-          <h1>Heading</h1>
+          <h1>
+            Heading <i className="far fa-heart"></i>
+          </h1>
           <h3>Price</h3>
           <button className="butt">Add to cart</button>
         </div>
@@ -31,7 +48,9 @@ const Home = () => {
       <div className="column">
         <div className="card">
           <img></img>
-          <h1>Heading</h1>
+          <h1>
+            Heading <i className="far fa-heart"></i>
+          </h1>
           <h3>Price</h3>
           <button className="butt">Add to cart</button>
         </div>
