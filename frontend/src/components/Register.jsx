@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/register.css";
+import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div>
@@ -18,10 +19,11 @@ const Register = () => {
           <input type="Password" placeholder="Enter your password" />
 
           <div className="text-center">
-            
-            <button type="submit" className="btn1">
-              Register
-            </button>
+            <Link to="/login">
+              <button type="submit" className="btn1">
+                Register
+              </button>
+            </Link>
           </div>
         </div>
       </form>

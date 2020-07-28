@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.butt {
+  background-color: darkcyan;
+}
+
+.row {
+  margin: 10px -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 95%;
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+}
